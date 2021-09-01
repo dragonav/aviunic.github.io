@@ -52,24 +52,24 @@ body {
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-.portfolio-item-wrapper {
+  }
+  
+  .portfolio-item-wrapper {
     position: relative;
-}
-
-.portfolio-img-background {
-    height: 350px;
-    width: 100%;
+  }
+  
+  .portfolio-img-background {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.img-text-wrapper {
+    height: 350px;
+    width: 100%;
+  }
+  
+  .img-text-wrapper {
     position: absolute;
     top: 0;
-    display: felx;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -77,4 +77,9 @@ body {
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
-}
+  }
+
+  .logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
