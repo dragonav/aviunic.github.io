@@ -1,6 +1,10 @@
+/* Master styles  */
+
 body {
     margin: 0px;
 }
+
+/* Nav Styles */
 
 .container {
     display: grid;
@@ -42,3 +46,5 @@ body {
 .nav-link-wrapper a:hover {
     color: 1px solid black;
 }
+
+/* Portfolio styles */
