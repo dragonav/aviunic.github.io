@@ -65,3 +65,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: felx;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
