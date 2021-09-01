@@ -85,7 +85,7 @@ body {
   }
 
   .img-text-wrapper .subtitle {
-    transition: 0.4s;
+    transition: 1s;
     color: transparent;
     font-weight: 600;
 }
@@ -96,7 +96,7 @@ body {
   }
 
   .img-darken {
-      transition: 1s;
+      transition: 0.4s;
       filter: brightness(10%);
   }
 
