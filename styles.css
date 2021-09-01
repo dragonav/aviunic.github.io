@@ -41,13 +41,21 @@ body {
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid #8a8a8a;
+    border-bottom: 1px solid black;
 }
 
 .nav-link-wrapper a:hover {
-    color: 1px solid black;
+    color: black;
+    
 }
 
+.active-nav-link {
+    border-bottom: 1px solid #8a8a8a;
+}
+
+.active-nav-link a{
+    color: 1px solid black !important;
+}
 /* Portfolio styles */
 
 .portfolio-items-wrapper {
