@@ -133,6 +133,6 @@ function init() {
 }
 
 function infoBoxEventsExample1() {
-    Metro.infobox.create("<h1><strong>HOW TO PLAY</strong></h1><ul style='line-height:280%'><li>Choose a player to go first.</li><li>That player ROLLS the dice and scores as many points as the total shown on the two dice.</li><li>The player may continue rolling and accumulating points (but risk rolling 1 on both dice, losing all CURRENT points and ending the turn.) or HOLD to save the CURRENT points and end his turn.</li><li>Play passes from player to player until a winner is determined.</li></ul>", "alert");
+    Metro.infobox.create("<h1><strong>HOW TO PLAY</strong></h1><ul style='line-height:280%'><li>Choose a player to go first.</li><li>That player ROLLS the dice and scores as many points as the total shown on the two dice.</li><li>The player may continue rolling and accumulating points (but risk rolling 1 on both dice, losing all CURRENT points and ending the turn.) or HOLD to save the CURRENT points and end his turn.</li><li>Play passes from player to player until a winner is determined.</li></ul>", "default");
 }
 

@@ -147,7 +147,7 @@ button:focus {
 }
 
 i {
-    color: #EB4D4D;
+    color: #CE352C;
     display: inline-block;
     margin-right: 15px;
     font-size: 32px;
@@ -171,7 +171,7 @@ i {
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
-.winner { background-color: #f7f7f7; }
+.winner { background-color: #54ff4e; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
 
 ul {
