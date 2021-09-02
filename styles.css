@@ -91,6 +91,7 @@ body {
   .logo-wrapper img {
     width: 50%;
     margin-bottom: 20px;
+    visibility: hidden;
   }
 
   .img-text-wrapper .subtitle {
