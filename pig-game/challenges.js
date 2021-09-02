@@ -13,8 +13,8 @@ init();
 
 var lastDice;
 
-document.querySelector('.btn-roll').addEventListener('click', function() {
-    if(gamePlaying) {
+document.querySelector('.btn-roll').addEventListener('click', function () {
+    if (gamePlaying) {
         // 1. Random number
         var dice1 = Math.floor(Math.random() * 6) + 1;
         var dice2 = Math.floor(Math.random() * 6) + 1;
@@ -34,7 +34,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             //Next player
             nextPlayer();
         }
-        
+
         /*
         if (dice === 6 && lastDice === 6) {
             //Player looses score
@@ -51,29 +51,29 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         }
         lastDice = dice;
         */
-    }    
+    }
 });
 
 
-document.querySelector('.btn-hold').addEventListener('click', function() {
+document.querySelector('.btn-hold').addEventListener('click', function () {
     if (gamePlaying) {
         // Add CURRENT score to GLOBAL score
         scores[activePlayer] += roundScore;
 
         // Update the UI
         document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
-        
+
         var input = document.querySelector('.final-score').value;
         var winningScore;
-        
+
         // Undefined, 0, null or "" are COERCED to false
         // Anything else is COERCED to true
-        if(input) {
+        if (input) {
             winningScore = input;
         } else {
             winningScore = 100;
         }
-        
+
         // Check if player won the game
         if (scores[activePlayer] >= winningScore) {
             document.querySelector('#name-' + activePlayer).textContent = 'Winner!';
@@ -131,3 +131,8 @@ function init() {
     document.querySelector('.player-1-panel').classList.remove('active');
     document.querySelector('.player-0-panel').classList.add('active');
 }
+
+function infoBoxEventsExample1() {
+    Metro.infobox.create("<h1><strong>HOW TO PLAY</strong></h1><ul style='line-height:280%'><li>Choose a player to go first.</li><li>That player ROLLS the dice and scores as many points as the total shown on the two dice.</li><li>The player may continue rolling and accumulating points (but risk rolling 1 on both dice, losing all CURRENT points and ending the turn.) or HOLD to save the CURRENT points and end his turn.</li><li>Play passes from player to player until a winner is determined.</li></ul>", "alert");
+}
+
