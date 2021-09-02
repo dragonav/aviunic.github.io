@@ -88,12 +88,20 @@ body {
 
   .logo-wrapper img {
     width: 50%;
+    height: 50%;
     margin-bottom: 20px;
     visibility: hidden;
   }
 
+  .logo-wrapper:hover img {
+    width: 50%;
+    margin-bottom: 20px;
+    visibility: visible;
+  }
+
   .img-text-wrapper .subtitle {
     transition: 1s;
+    transition-timing-function: ease-out;
     color: transparent;
     font-weight: 600;
 }
@@ -104,7 +112,8 @@ body {
   }
 
   .img-darken {
-      transition: 0.7s;
+      transition: 1s;
+      transition-timing-function: ease-out;
       filter: brightness(10%);
   }
 
