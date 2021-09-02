@@ -136,4 +136,10 @@ body {
       color: lightseagreen;
   }
 
+  @media only screen and (orientation: portrait) {
+    .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  }
   

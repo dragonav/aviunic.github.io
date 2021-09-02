@@ -188,3 +188,15 @@ ul {
     text-align: center;
     border-bottom: 2px solid;
   }
+
+   @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+    .wrapper {
+        width: 1000px;
+        position:relative;
+        transform: translate(-50%, -50%);
+        transform: rotate(90);
+        background-color: #fff;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+    }
+  } 
